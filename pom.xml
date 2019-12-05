@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
-			<version>1.8.2</version>
+			<version>1.8.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/net.sf.jtidy/jtidy -->
 		<dependency>
@@ -339,8 +339,8 @@
 							<image>
 								<name>mongo:${MONGODB_VERSION}</name>
 								<build>
-									<dockerFile>${project.basedir}/docker/mongo/Dockerfile</dockerFile >
-								</build>
+									<dockerFile>${project.basedir}/docker/mongo/Dockerfile
+								
 								<run>
 									<ports>
 										<port>27017:27017</port>
@@ -351,15 +351,15 @@
 										<time>120000</time>
 									</wait>
 								</run>
-							</image>
-						</images>
-					</configuration>
-				</plugin>
-			</plugins>
-		</build>
-	</profile>
+							
+						
+					
+				
+			
+		
+	
 
-	</profiles>
+	
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -485,4 +485,4 @@
 
 		</plugins>
 	</build>
-</project>
+</dockerFile></build></image></images></configuration></plugin></plugins></build></profile></profiles></project>
