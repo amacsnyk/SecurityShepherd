@@ -160,7 +160,7 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
-			<version>2.1.1.RELEASE</version>
+			<version>2.2.5.RELEASE</version>
 		</dependency>
 
 		<!-- Test -->
@@ -339,8 +339,8 @@
 							<image>
 								<name>mongo:${MONGODB_VERSION}</name>
 								<build>
-									<dockerFile>${project.basedir}/docker/mongo/Dockerfile</dockerFile >
-								</build>
+									<dockerFile>${project.basedir}/docker/mongo/Dockerfile
+								
 								<run>
 									<ports>
 										<port>27017:27017</port>
@@ -351,15 +351,15 @@
 										<time>120000</time>
 									</wait>
 								</run>
-							</image>
-						</images>
-					</configuration>
-				</plugin>
-			</plugins>
-		</build>
-	</profile>
+							
+						
+					
+				
+			
+		
+	
 
-	</profiles>
+	
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -485,4 +485,4 @@
 
 		</plugins>
 	</build>
-</project>
+</dockerFile></build></image></images></configuration></plugin></plugins></build></profile></profiles></project>
