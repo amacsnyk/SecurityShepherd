@@ -68,7 +68,7 @@
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongo-java-driver</artifactId>
-			<version>3.4.1</version>
+			<version>3.12.2</version>
 		</dependency>
 		<dependency>
 			<groupId>javax</groupId>
@@ -339,8 +339,8 @@
 							<image>
 								<name>mongo:${MONGODB_VERSION}</name>
 								<build>
-									<dockerFile>${project.basedir}/docker/mongo/Dockerfile</dockerFile >
-								</build>
+									<dockerFile>${project.basedir}/docker/mongo/Dockerfile
+								
 								<run>
 									<ports>
 										<port>27017:27017</port>
@@ -351,15 +351,15 @@
 										<time>120000</time>
 									</wait>
 								</run>
-							</image>
-						</images>
-					</configuration>
-				</plugin>
-			</plugins>
-		</build>
-	</profile>
+							
+						
+					
+				
+			
+		
+	
 
-	</profiles>
+	
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -485,4 +485,4 @@
 
 		</plugins>
 	</build>
-</project>
+</dockerFile></build></image></images></configuration></plugin></plugins></build></profile></profiles></project>
